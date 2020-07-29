@@ -1,0 +1,108 @@
+
+
+
+* {
+	margin: 20px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+
+/* Header */
+
+#header {
+	background-color: #2F5AB8;
+	color: #FFF;
+}
+
+#header p {
+	font-weight: 400;
+	font-family: sans-serif;
+}
+
+#header b {
+	opacity: 0.8;
+}
+
+#imagenPerfil img {
+	width: 250px;
+	height: auto;
+	box-shadow: 2px 13px 13px 0px white;
+	transition: 0.5s transform;
+	margin: 0;
+}
+
+#imagenPerfil img:hover {
+	transform: scale(1.1);
+}
+
+#gps {
+	width: 50px;
+	position: absolute;
+	right: 380px;
+	top: 85px;
+}
+
+#phone {
+	width: 40px;
+	position: absolute;
+	right: 380px;
+	top: 148px;
+}
+
+#send {
+	width: 40px;
+	position: absolute;
+	right: 380px;
+	top: 203px;
+}
+
+/* Acerca de mi */
+
+#acercaDeMi h3 {
+	color: #2F5AB8;
+	text-decoration: underline;
+}
+
+#acercaDeMi p {
+	font-size: 20px;
+}
+
+.text-blue {
+	color: #2F5AB8;
+}
+
+.grid-sistem {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-template-areas: "idiomas experiencia";
+
+}
+
+.idiomas {
+	grid-area: idiomas;
+}
+
+.idiomas h3 {
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+
+.experiencia {
+	grid-area: experiencia;
+}
+
+.experiencia h3 {
+	text-decoration: underline;
+	font-family: sans-serif;
+}
+
+.experiencia strong {
+	font-size: 20px;
+}
+
+#redesSociales img {
+	width: 40px;
+	height: auto;
+}
+
